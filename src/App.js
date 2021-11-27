@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Searchbar from './Components/Searchbar';
 import BestOffer from './Components/BestOffer';
 import About from './Components/About';
 import Reservation from './Components/Reservation';
-import Menu from './Components/Menu';
+//import Menu from './Components/Menu';<Menu/>
 import Contact from './Components/Contact';
 
 
@@ -19,7 +19,7 @@ function App() {
       <BestOffer/>
       <About/>
       <Reservation/>
-      <Menu/>
+      
       <Contact/>
     </div>
   );
